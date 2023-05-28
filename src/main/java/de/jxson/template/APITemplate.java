@@ -1,11 +1,14 @@
 package de.jxson.template;
 
+import de.epochtraveler.epochapi.api.API;
+
+@API(
+        name = "Template-API",
+        version = "1.0.0"
+)
 public class APITemplate {
 
     private static APITemplateLocal localApiInterface;
-
-    public static final String API_NAME = "Template-API";
-    public static final String API_VERSION = "1.0.0";
 
     /**
      * This method needs to be called therefore the api can't be initialized
